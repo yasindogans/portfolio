@@ -9,6 +9,6 @@ public class MessageController {
 
     @RequestMapping(path = "/message",method = RequestMethod.GET)
     public String message(){
-        return "{message:\"bu sunucudan aldığım bir mesaj\"}";
+        return "{message:\"bu sunucudan aldığım bir mesaj...\"}";
     }
 }
